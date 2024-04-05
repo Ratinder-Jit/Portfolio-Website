@@ -1,0 +1,65 @@
+body {
+    
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: grey;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(100,100,100);
+}
+
+#error-message {
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
