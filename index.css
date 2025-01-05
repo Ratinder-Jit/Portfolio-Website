@@ -1,9 +1,9 @@
-*{
+/* *{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 body{
     background-color: grey;
-    color: antiquewhite;
+    color: hwb(34 84% 2%);
     margin: 0;
 }
 .container{
@@ -76,4 +76,127 @@ ul{
 }
 
 @media only screen and (max-width: 600px) {
+} */
+
+/* index.css */
+
+/* index.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4a4a4a; /* Gray background */
+    color: antiquewhite; /* Antiquewhite text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #606060; /* Slightly darker gray for header */
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4a4a4a;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #5c5c5c; /* Darker gray for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+main h4 {
+    font-size: 1.5rem;
+    color: antiquewhite; /* Header color matches text for uniformity */
+    margin-bottom: 10px;
+}
+
+main p,
+ul {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #606060; /* Matches header background */
+    color: antiquewhite;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+}
+
+footer img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Button styles for color scheme toggles */
+.color-buttons button {
+    background-color: #4a4a4a;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.color-buttons button:hover {
+    background-color: antiquewhite;
+    color: #4a4a4a;
+}
+
+/* Color scheme 1 */
+.color-scheme-1 {
+    background-color: #707070; /* Slightly lighter gray */
+    color: antiquewhite;
+}
+
+/* Color scheme 2 */
+.color-scheme-2 {
+    background-color: #5c5c5c; /* Matches container */
+    color: antiquewhite;
 }

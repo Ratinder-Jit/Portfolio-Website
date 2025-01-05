@@ -1,4 +1,4 @@
-*{
+/* *{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -63,6 +63,118 @@ ul{
     grid-area: main;
     padding: 20px;
     margin-left: 10px;
+} */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4a4a4a; /* Gray background */
+    color: antiquewhite; /* Antiquewhite text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #606060; /* Slightly darker gray for header */
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Navigation bar styling */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4a4a4a;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #5c5c5c; /* Darker gray for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+main ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Table styling */
+table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+    color: antiquewhite;
+}
+
+table td {
+    border: 1px solid antiquewhite;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Video styling */
+video {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid antiquewhite;
+    border-radius: 8px;
+}
+
+/* Footer (if needed for consistent styling) */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #606060;
+    color: antiquewhite;
+    font-size: 0.9rem;
+}
+
+/* Button styles for potential additions */
+button {
+    background-color: #4a4a4a;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: #4a4a4a;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {

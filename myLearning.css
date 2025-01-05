@@ -1,4 +1,4 @@
-*{
+/* *{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -7,65 +7,125 @@ body{
     background-color: grey;
     grid-template-rows: auto 1fr;
     color: antiquewhite;
+} */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4a4a4a; /* Gray background */
+    color: antiquewhite; /* Antiquewhite text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-header{
+/* Header styling */
+header {
+    background-color: #606060; /* Slightly darker gray for header */
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Navigation bar styling */
+nav {
+    margin-top: 10px;
     text-align: center;
 }
 
-nav{
-    display: flex;
-    justify-content: center;
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4a4a4a;
     background-color: antiquewhite;
-}
- nav a{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    color: black;
- }
-
- nav a:hover , a#Java:hover{
-    color:grey;
+    border-radius: 5px;
 }
 
-#Java{
-    color: black;
-}
-
-
-
-h3 ~ p {
-    font-weight: bold;
-   
-}
-
+/* Main content styling */
 main {
-    display: grid;
-    grid-template-columns: 1fr 3fr; 
-    gap: 20px; 
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
-    margin: 10px;
+    background-color: #5c5c5c; /* Darker gray for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
-.images{
-    border: 5px solid;
-    border-color: antiquewhite;
-    margin: 10px;
+main p {
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.8;
 }
 
-p + img {
-    width: auto;
+main h3 {
+    margin: 10px 0;
+    color: antiquewhite;
 }
 
-#W3S > img:hover{
-    border-color:chocolate;
+main ol {
+    padding-left: 20px;
 }
 
-ol{
-    padding: 20px;
-    margin-left: 10px;
+main ol li {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
 }
+
+/* Image styling */
+.images {
+    display: block;
+    margin: 10px auto;
+    border: 3px solid antiquewhite;
+    border-radius: 8px;
+}
+
+/* Video and iframe styling */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid antiquewhite;
+    border-radius: 8px;
+}
+
+/* Link styling for resource links */
+a {
+    color: antiquewhite;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    color: #4a4a4a;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+/* Footer (if needed for consistent styling) */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #606060;
+    color: antiquewhite;
+    font-size: 0.9rem;
+}
+
+
+
+
+
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
 }
